@@ -1,0 +1,187 @@
+body{
+  background-color: aqua;
+  
+}
+.calc {
+  width:400px;
+  height:600px;
+  
+  
+ }
+
+button{
+  height:100%;
+  width:100%;
+  font-size: 50px;
+  border-radius:0.0000000000000001;
+}
+.orange-button{
+  background-color:orange;
+  color:white;
+}
+
+.row-1{
+  background-color: black;
+  height:16%;
+  border:solid black 2px;
+  color:white;
+  font-size:80px;
+  display:flex;
+  justify-content:end;
+  
+}
+
+.row-2{
+  display:flex;
+  flex-direction: row;
+  border:solid black 2px;
+  height:16%;
+}
+  .column-21{
+    background-color:#d8d9db;
+    width:51%;
+    height:100%;
+    border:solid black 2px;
+    font-size:50px;
+  }
+ 
+.column-22{
+    background-color:#d8d9db;
+    width:25%;
+    height:100%;
+    border:solid black 2px;
+  }
+
+div.column-23{
+    background-color:orange;
+    width:25%;
+    height:100%;
+    border:solid black 2px;
+  }
+
+.row-3{
+  display:flex;
+  flex-direction: row;
+  height:16%;
+  border:solid black 2px;
+}
+.column-31{
+  background-color:#d8d9db;
+    width:25%;
+    height:100%;
+    border:solid black 2px;
+}
+
+.column-32{
+  background-color:#d8d9db;
+    width:25%;
+    height:100%;
+    border:solid black 2px;
+}
+
+.column-33{
+  background-color:#d8d9db;
+    width:25%;
+    height:100%;
+    border:solid black 2px;
+}
+
+.column-34{
+  background-color:orange;
+    width:25%;
+    height:100%;
+    border:solid black 2px;
+}
+
+
+
+
+.row-4{
+  display:flex;
+  flex-direction: row;
+  height:16%;
+  border:solid black 2px;
+}
+.column-41{
+  background-color:#d8d9db;
+    width:25%;
+    height:100%;
+    border:solid black 2px;
+}
+
+.column-42{
+  background-color:#d8d9db;
+    width:25%;
+    height:100%;
+    border:solid black 2px;
+}
+
+.column-43{
+  background-color:#d8d9db;
+    width:25%;
+    height:100%;
+    border:solid black 2px;
+}
+
+.column-44{
+  background-color:orange;
+    width:25%;
+    height:100%;
+    border:solid black 2px;
+}
+
+
+.row-5{
+  display:flex;
+  flex-direction: row;
+  height:16%;
+  border:solid black 2px;
+}
+.column-51{
+  background-color:#d8d9db;
+    width:25%;
+    height:100%;
+    border:solid black 2px;
+}
+
+.column-52{
+  background-color:#d8d9db;
+    width:25%;
+    height:100%;
+    border:solid black 2px;
+}
+
+.column-53{
+  background-color:#d8d9db;
+    width:25%;
+    height:100%;
+    border:solid black 2px;
+}
+
+.column-54{
+  background-color:orange;
+    width:25%;
+    height:100%;
+    border:solid black 2px;
+}
+
+
+.row-6{
+  display:flex;
+  flex-direction: row;
+  height:16%;
+  border:solid black 2px; 
+}
+.column-61{
+  background-color:#d8d9db;
+    width:77%;
+    height:100%;
+    border:solid black 2px;
+}
+
+.column-62{
+  background-color:orange;
+    width:25%;
+    height:100%;
+    border:solid black 2px;
+}
