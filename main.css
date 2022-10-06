@@ -1,6 +1,7 @@
 body{
   background-color: aqua;
-  
+  display:flex;
+  justify-content:center;
 }
 .calc {
   width:400px;
