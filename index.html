@@ -8,41 +8,43 @@
   <title>Calculator</title>
 </head>
 <body>
-<div class="calc">
-<div class="row-1">0</div>
+  <div class="calculator">
+<div class="calc calculator__keys ">
+<div class="row-1 calculator__display">0</div>
 
 <div class="row-2">
-  <div class="column-21"><button>C</button></div>
+  <div class="column-21"><button data-action="clear">C</button></div>
   <div class="column-22" ><button>&larr;</button></div>
-  <div class="column-23"><button class="orange-button">&divide;</button></div>
+  <div class="column-23"><button class="orange-button key--operator" data-action="divide">&divide;</button></div>
 </div>
 
 <div class="row-3">
   <div class="column-31"><button>7</button></div>
   <div class="column-32"><button>8</button></div>
   <div class="column-33"><button>9</button></div>
-  <div class="column-34"><button class="orange-button">&times;</button></div>
+  <div class="column-34"><button class="orange-button key--operator" data-action="multiply">&times;</button></div>
 </div>
 
 <div class="row-4">
   <div class="column-41"><button>4</button></div>
   <div class="column-42"><button>5</button></div>
   <div class="column-43"><button>6</button></div>
-  <div class="column-44"><button class="orange-button">&minus;</button></div>
+  <div class="column-44"><button class="orange-button key--operator" data-action="subtract">&minus;</button></div>
 </div>
 
 <div class="row-5">
   <div class="column-51"><button>1</button></div>
   <div class="column-52"><button>2</button></div>
   <div class="column-53"><button>3</button></div>
-  <div class="column-54"><button class="orange-button">&plus;</button></div>
+  <div class="column-54"><button class="orange-button key--operator" data-action="add">&plus;</button></div>
 </div>
 
 <div class="row-6">
   <div class="column-61"><button>0</button></div>
-  <div class="column-62"><button class="orange-button">&equals;</button></div> 
+  <div class="column-62"><button class="orange-button key--equal" data-action="calculate">&equals;</button></div> 
 </div>
 
+</div>
 </div>
   <script src="main.js"></script>
 </body>
